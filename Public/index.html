@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>S-Chat</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="client.js" defer></script>
+</head>
+<body>
+  <h1>S-Chat</h1>
+  <div class="container" id="message-area">
+    <div class="to">Welcome to the chat</div>
+  </div>
+  <form action="#" class="send-container">
+    <input type="text" id="inp" autocomplete="off" placeholder="Type a message">
+    <button type="submit">Send</button>
+  </form>
+  <button id="clearChat">Clear Chat</button> <!-- Clear chat button -->
+</body>
+</html>
